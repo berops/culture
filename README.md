@@ -7,6 +7,7 @@
 - [Interviews](#interviews)
 
 <a name="tools"/>
+
 ## Tools
 
 We use:
@@ -16,6 +17,7 @@ We use:
 - [Google Cloud Platform](cloud.google.com) for hosting our infrastructure
 
 <a name="git">
+
 ## Git
 
 All our work is stored on GitHub in private and public repositories. There are common housekeeping rules that apply to both of the repository types.
@@ -28,6 +30,7 @@ All our work is stored on GitHub in private and public repositories. There are c
 - we care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 
 <a name="communication">
+
 ## Communication
 
 Our communication "defaults to open". This means that by default every information is open to the colleagues (strategic exceptions are expected and will be carefully assessed). The reasons:
@@ -36,6 +39,7 @@ Our communication "defaults to open". This means that by default every informati
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
 
 <a name="interviews">
+
 ## Interviews
 
 Interviews are difficult for both - the interviewer and the interviewee. There is a good reason why they are difficult. It is because they are important. We prefer to have three Berops people present on the interviews in order to capture the impressions about the candidate. This way we are able to spot aspects of the candidate's profile that a single person might miss due to the extra load that the interviewer needs to handle.
