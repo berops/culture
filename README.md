@@ -1,10 +1,10 @@
 # Berops Culture
 
 ## Table of Contents
-[Tools](#tools)
-[Git](#git)
-[Communication](#communication)
-[Interviews](#interviews)
+- [Tools](#tools)
+- [Git](#git)
+- [Communication](#communication)
+- [Interviews](#interviews)
 
 <a name="tools"/>
 ## Tools
