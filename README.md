@@ -15,6 +15,8 @@ We use:
 - [GitHub](www.github.com/berops) for private and public git repositories
 - [GSuite](gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](cloud.google.com) for hosting our infrastructure
+- [Nuclino](www.nuclino.com) as a team WIKI
+- [Miro](www.miro.com) for diagrams and charts
 
 <a name="git">
 
