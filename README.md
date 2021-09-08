@@ -4,6 +4,7 @@
 - [Tools](#tools)
 - [Git](#git)
 - [Communication](#communication)
+- [Remote Kanban DevOps house](#remotekanban)
 - [Interviews](#interviews)
 
 <a name="tools"/>
@@ -39,6 +40,35 @@ Our communication "defaults to open". This means that by default every informati
 1. empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
 2. quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
+
+<a name="remotekanban">
+
+## Remote Kanban DevOps house
+
+Berops is a full-remote, Kanban-style DevOps workplace. This section contains an additional list of good practices to help you succeed in such an environment.
+
+- Default to persisting information in the form of text on agreed upon channels, with open visibility to all potentially relevant people (Slack, GitHub...)
+  - Text is permanent, so it can be revisited by anyone at any later point.
+  - Text subconsciously forces you to specify and develop the idea as you're recording it in writing.
+  - Text is inclusive to people that are not currently present.
+  - Text is an asynchronous form of communication, so the other party can participate when it suits them better.
+- Use face-to-face communication for situations when text-based communication is too cumbersome.
+  - But ensure that all worthwhile results of a face-to-face communication are also recorded in text form.
+    - For example, if you have a design meeting where you agree upon the approximate architecture of your product, take the effort to record it in writing.
+- Work in pair via video call screen sharing from time to time.
+  - It's good for sharing knowledge & skills, building relationships, and finding alternative solutions.
+- Have all your work reviewed by your colleagues. Don't have everything reviewed by the same person, but have a review request rotation including your entire team.
+  - It's useful for sharing knowledge & skills, familiarizing at least one more person with your work, and improving the quality of the work done.
+- Take deep ownership of the tasks you're assigned to.
+  - Cooperate with the relevant people, if necessary.
+  - Consider all consequences and prepare for them.
+  - It's the assignee's responsibility that the task is completed in a way that serves its intended purpose - nothing more, nothing less.
+- Contribute towards making the kanban board reflect the project's goals and priorities as accurately as possible.
+  - If you think that there is something that needs doing, open a ticket for it.
+  - Each task must have a clear goal and purpose.
+  - Each task must be described well enough so that any team member could pick it up and work on it - even a fresh hire 6 months later.
+  - Try to submit regular updates to the tasks you're actively working on, generally at least one update per workday.
+  - If you think some task doesn't make sense doing anymore, or isn't as important anymore, let it be known.
 
 <a name="interviews">
 
