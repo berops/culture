@@ -47,7 +47,7 @@ As Slack is our communication tool of choice, we take the advantage of `huddle`s
 
 Berops is a full-remote, Kanban-style DevOps workplace. This section contains an additional list of good practices to help you succeed in such an environment.
 
-- Default to persisting information in the form of text on agreed upon channels, with open visibility to all potentially relevant people (Slack, Jira...)
+- Default to persisting information in the form of text on agreed upon channels, with open visibility to all potentially relevant people (Slack, GitHub...)
   - Text is permanent, so it can be revisited by anyone at any later point.
   - Text subconsciously forces you to specify and develop the idea as you're recording it in writing.
   - Text is inclusive to people that are not currently present.
