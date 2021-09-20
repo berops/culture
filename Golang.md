@@ -28,7 +28,7 @@ Use camelCase (and never snake_case). DO NOT USE uppercase names for constants i
 
 Variables are by default auto-initialized to their zero values.
 
-Go doesn’t allow automatic type promotion between variables. You must use a type conversion when variable types do not match.
+Go doesn’t allow automatic type promotion between variables. You must use type conversion when variable types do not match.
 
 **Immutable declaration**
 Go doesn’t provide a way to specify that a value calculated at runtime is immutable. 'Immutability' is limited to things that can only hold values that the compiler can figure out at compile time.
@@ -76,7 +76,31 @@ Use Type Switches sparringly. One common use of a type assertion is to see if th
 
 ## iota
 
-Iota expression is like a numeric universal counter starting at 0.
+Iota expression is like a numeric universal counter starting at 0 (think C-style enum).
+
+An example:
+```go
+const (
+    Monday Digit = iota
+    Tuesday
+    Wednesday
+    Thursday
+    Friday
+)
+fmt.Println(Wednesday)
+fmt.Println(Thursday)
+```
+
+The above is equivalent to the next declaration of constants:
+```go
+const (
+    Monday = 0
+    Tuesday = 1
+    Wednesday = 2
+    Thursday = 3
+    Friday = 4
+)
+```
 
 # Simple Types
 
@@ -104,7 +128,7 @@ https://stackoverflow.com/questions/13670818/pair-tuple-data-type-in-go
 
 Go has no support for the tuple type, which means that Go does not officially care about tuples, despite the fact that it has support for certain uses of tuples.
 
-You can also kindof simulate them as a pair via e.g. arrays, or anonymous structs.
+You can kind-of simulate them as a pair via e.g. arrays, or anonymous structs.
 
 ```go
 // You can have a function return two values that you get in a single statement:
@@ -135,9 +159,9 @@ var x [2][3]int // x is an array of length 2 whose type is an array of ints of l
 
 An out-of-bounds read or write with a variable index compiles but fails at runtime with a panic - no negative indexes allowed either.
 
-Go considers the size of the array to be part of the type of the array. This makes an array that’s declared to be [3]int a different type from an array that’s declared to be [4]int. This also means that you cannot use a variable to specify the size of an array, because types must be resolved at compile time, not at runtime. Also, you can’t use a type conversion to convert arrays of different sizes to identical types.
+Go considers the size of the array to be part of the type of the array. This makes an array that’s declared to be [3]int a different type from an array that’s declared to be [4]int. This also means that you cannot use a variable to specify the size of an array, because types must be resolved at compile time, not at runtime. Also, you can’t use type conversion to convert arrays of different sizes to identical types.
 
-Due to these restrictions, don’t use arrays unless you know the exact length you need ahead of time. Arrays exist in Go is to provide the backing store for slices.
+Due to these restrictions, don’t use arrays unless you know the exact length you need ahead of time. Arrays exist in Go to provide the backing store for slices.
 
 ## Slices
 
@@ -146,9 +170,11 @@ A slice is implemented as a struct with three fields: an int field for length, a
 Empty slice is 'nil'. In Go, nil is an identifier that represents the lack of a value for some types.
 
 You can create a slice using an empty slice literal:
+```go
 var x = []int{}
+```
 
-This creates a zero-length slice, which is non-nil (comparing it to nil returns false). Otherwise, a nil slice works identically to a zero-length slice. The only situation where a zero-length slice is useful is when converting a slice to JSON.
+This creates a zero-length slice, which is non-nil (comparing it to nil returns false). Otherwise, a nil slice works identically to a zero-length slice. A situation where a zero-length slice is useful is when converting a slice to JSON.
 
 ## Dictionary/Map
 
@@ -265,7 +291,7 @@ These are used with (e.g. JSON, protocol buffers) unmarshaling and marshaling, a
 
 # for loop
 
-Golang has no  do/while loops. Instead, it uses for loop in four different formats:
+Golang has no do/while loops. Instead, it uses the for loop in four different formats:
 
 * A complete, C-style for: for i := 0; i < 10; i++ { ... }
 * A condition-only for: for i < 100 { ... }
@@ -307,7 +333,7 @@ Go doesn’t have named and optional input parameters.
 **Return Values**
 Go has a return keyword for returning values from a function. If a function returns a value, you must supply a return. If a function returns nothing, a return statement is not needed at the end of the function. The return keyword is only needed in a function that returns nothing if you are exiting from the function before the last line.
 
-Go allows for multiple return values (NB this is not a tuple; these are individual values):
+Go allows for multiple return values (NB the returned value is not a tuple; these are individual values):
 return 0, 0, errors.New("cannot divide by zero")
 
 **Named Return Values**
@@ -322,7 +348,7 @@ If you only want to name some of the return values, you can do so by using _ as 
 
 Just like any other variable, you can shadow a named return value. Be sure that you are assigning to the return value and not to a shadow of it.
 
-**Never use Blank Returns with Named Return Values!**
+**Never use Blank Returns with Named Return Values**
 If you use named return values, you need to be aware of one severe misfeature in Go: blank (sometimes called naked) returns. If you have named return values, you can just write return without specifying the values that are returned. This returns the last values assigned to the named return values.
 
 **Variadic functions**
@@ -370,7 +396,7 @@ func main() {
 ```
 
 **defer**
-In Go, the cleanup code is attached to the function with the defer keyword (think of it as a finally block). The code within defer closures runs after the return statement. As I mentioned, you can supply a function with input parameters to a defer. Just as defer doesn’t run immediately, any variables passed into a deferred closure aren’t evaluated until the closure runs.
+In Go, the cleanup code is attached to the function with the defer keyword (think of it as a finally block). The code within defer closures runs after the return statement. You can supply a function with input parameters to a defer. Just as defer doesn’t run immediately, any variables passed into a deferred closure aren’t evaluated until the closure runs.
 
 ## Adding methods (i.e. functions) to functions
 
@@ -414,11 +440,9 @@ func funReturnFun() func() int {
 
 # Pointers
 
-There are no C++ style pointer arithmetic in Go. However, the Go standard library does have an unsafe package that lets you do some low-level operations on data structures.
+There are no C++ style pointer arithmetics in Go. However, the Go standard library does have an unsafe package that lets you do some low-level operations on data structures.
 
-The zero value for a pointer is nil.
-
-NB nil is also the zero value for slices, maps, and functions - all implemented with pointers (as are channels and interfaces).
+The zero value for a pointer is nil, which is also the zero value for slices, maps, and functions - all implemented with pointers (as are channels and interfaces).
 
 **Reference/address operator**
 ```go
@@ -438,7 +462,7 @@ fmt.Println(*pointerToX) // prints 10
 
 **Pointer type**
 
-A pointer type is a type that represents a pointer. It is written with a * before a type name. A pointer type can be based on any type:
+A pointer type is a type that represents a pointer to a value with the specified type. It is written with a * before a type name. A pointer type can be based on any type:
 ```go
 x := 10
 var pointerToX *int
@@ -447,7 +471,7 @@ pointerToX = &x
 
 # Intefaces
 
-Go supports implicit interfaces. I.e. anything that looks like it implements an interface is assumed to implement it.
+Go supports implicit interfaces. I.e. anything that looks like it implements an interface is assumed to implement it (think Scala 2.X implicits).
 
 **Empty interface**
 An empty interface type simply states that the variable can store any value whose type implements zero or more methods. This just happens to match every type in Go.
@@ -515,7 +539,9 @@ Two functions in stdlib to create errors:
 * fmt.Errorf("%d isn't an even number", i)
 
 **Sentinel Errors**
-Sentinel errors are usually used to indicate that you cannot start or continue processing. They were introduced by Dave Cheney in this blogpost:
+Sentinel errors are usually used to indicate that you cannot start or continue processing.
+
+They were introduced by Dave Cheney in this blogpost:
 https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully
 
 Sentinel errors are one of the few variables that are declared at the package level. By convention, their names start with Err (with the notable exception of io.EOF). They should be treated as read-only; there’s no way for the Go compiler to enforce this, but it is a programming error to change their value.
@@ -542,8 +568,7 @@ func fileChecker(name string) error {
 **Is and As**
 These are 2 functions from the error package. The **Is** function does the expected.
 
-The errors.As function allows you to check if a returned error (or any error it wraps) matches a specific type. It takes in two parameters. The first is the error being examined and the second is a pointer to a variable of the type that you are looking for. If the function returns true, an error in the error chain was found that matched, and
-that matching error is assigned to the second parameter. If the function returns false, no match was found in the error chain.
+The errors.As function allows you to check if a returned error (or any error it wraps) matches a specific type. It takes in two parameters. The first is the error being examined and the second is a pointer to a variable of the type that you are looking for. If the function returns true, an error in the error chain was found that matched, and that matching error is assigned to the second parameter. If the function returns false, no match was found in the error chain.
 
 If the second parameter to errors.As is anything other than a pointer to an error or a pointer to an interface, the method panics.
 
@@ -580,7 +605,7 @@ import (
 )
 ```
 
-NB However, this pattern is considered obsolete because it’s unclear that a registration operation is being performed. The primary use of init functions today is to initialize package-level variables that can’t be configured in a single assignment.
+However, this pattern is considered obsolete because it’s unclear that a registration operation is being performed. The primary use of init functions today is to initialize package-level variables that can’t be configured in a single assignment.
 
 ## Modules
 
@@ -594,25 +619,25 @@ A module by definition is a collection of related packages with **go.mod** at it
 * The version of go with which the module is created.
 * Dependency requirements of the module for a successful build. It defines both project’s dependencies requirement and also locks them to their correct version.
 
-NB Both go.mod as well as go.sum file should be checked into the Version Control System (VCS) such as git.
+NB Both go.mod as well as go.sum files should be checked into the Version Control System (VCS) such as git.
 
 **go.mod**
-go.mod file lists down the dependency requirement of the module. Now a dependency of a module can be of two kind:
+go.mod file contains the dependency requirements of the module. A dependency of a module can be of two kind:
 
 * Direct -A direct dependency is a dependency which the module directly imports.
 * Indirect – It is the dependency that is imported by the module’s direct dependencies. Also, any dependency that is mentioned in the go.mod file but not imported in any of the source files of the module is also treated as an indirect dependency.
 
 go.mod file only records the direct dependency. However, it may record an indirect dependency in the below case:
 
-* Any indirect dependency which is not listed in the go.mod file of your direct dependency or if direct dependency doesn’t have a go.mod file, then that dependency will be added to the go.mod file with indirect as the suffix. We will see an example of this later in the article to know this better.
+* Any indirect dependency which is not listed in the go.mod file of your direct dependency or if direct dependency doesn’t have a go.mod file, then that dependency will be added to the go.mod file with indirect as the suffix.
 
 **go.sum**
-This file lists down the checksum of direct and indirect dependency required along with the version. It is to be mentioned that the go.mod file is enough for a successful build.
+This file lists down the checksums of direct and indirect dependencies required along with their version. It is to be mentioned that the go.mod file is enough for a successful build.
 
-The checksum present in go.sum file is used to validate the checksum of each of direct and indirect dependency to confirm that none of them has been modified.
+The checksum present in go.sum file is used to validate the checksum of each direct and indirect dependency to confirm that none of them have been modified.
 
 **Imports**
-Go supports namespace aliases on Imports:
+Go supports namespace aliases on imports:
 ```go
 import (
   crand "crypto/rand"
@@ -629,7 +654,7 @@ You can also use _ as the package name.
 As usual, import convention seems to be handled by the gofmt tool. Still, try to be consistent.
 
 **Exports from Modules**
-A.k.a. visibility outside the module is not declared via  a special (e.g. export) keyword. Instead, Go uses capitalization to determine if a package-level identifier is visible outside of the package where it is declared.
+A.k.a. visibility outside the module is not declared via a special (e.g. export) keyword. Instead, Go uses capitalization to determine if a package-level identifier is visible outside of the package where it is declared.
 
 An identifier whose name starts with an uppercase letter is exported. Conversely, an identifier whose name starts with a lowercase letter or underscore can only be accessed from within the package where it is declared.
 
@@ -756,7 +781,7 @@ Variable, function etc names should convey some info about them. The official do
 Do make an effort to provide package, or at least top-level function godoc comments.
 
 **Not using std Go lib functions**
-Do not write your own implementation of commonly used functionality if you don't have to, e.g. for string trimming use strings.Trim(test, " ") (or the related TrimLeft, TrimRight). Instead of using + for PATH/filename concatenation, use filepath.Join from the standard "path/filepath" mod.
+Do not write your own implementation of commonly used functionality if you don't have to, e.g. for string trimming use strings.Trim(test, " ") or the related TrimLeft, TrimRight functions. Instead of using + for PATH/filename concatenation, use filepath.Join from the standard "path/filepath" mod.
 
 This avoids bugs, reduces code length/duplication etc.
 
@@ -764,14 +789,14 @@ This avoids bugs, reduces code length/duplication etc.
 The gofmt tool and linters supposedly take care most of the coding style related issues.
 
 Still, try to be consistent in things like:
-- order of the imported packages (e.g. std packages first, then local packages, and 3rd party packages)
+- order of the imported packages (e.g. std packages first, then local packages, and 3rd party packages last)
 - number of newlines between code sections (import block, top-level definitions)
 
 **Structs and method functions belong together**
-In object-oriented languages the data and the related operations are held closely together (i.e. in an class). In Golang (similar to Rust, Haskell, Clojure), the struct definition (representing the data) and the method functions defined on them (defining the operations on data) should be kept in proximity to each other, too, to aid readibility etc.
+In object-oriented languages the data and the related operations are held closely together (in a class). In Golang (similar to Rust, Haskell, Clojure), the struct definition (representing the data) and the method functions defined on them (defining the operations on data) should be kept in proximity to each other, too, to aid readibility etc.
 
 **Pointers**
 TODO How exactly does Golang deal with it's pointers (besides having a GC).
 
 **Unit Tests**
-TODO things like setup/teardown blocks, coverage metrics.
+TODO things like setup/teardown blocks, coverage metrics, how much TDD to do.
