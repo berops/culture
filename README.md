@@ -106,8 +106,8 @@ At Berops here we have a policy for handling the equipment in case of resignatio
 #### The remaining value of the equipment
 
 The following scheme applies:
-- if you decide to resign on day 1-182, you can keep the HW for 80% of the purchasing price
-- if you resign effectively on day 183-365, you can keep the HW for 60% of the purchasing price
+- if you decide to resign on day 1-182, you can keep the item for 80% of the purchasing price
+- if you resign effectively on day 183-365, you can keep the item for 60% of the purchasing price
 - ...
 
 If you resign after 2 years of ownership of the specific item, you can just keep it.
