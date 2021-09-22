@@ -12,7 +12,7 @@
 ## Tools
 
 We use:
-- [Slack](https://www.slack.com) for chat communication; incl. hooks from other tools (e.g. GitHub) and bots (e.g. [Github Release Notifier](https://github.com/justwatchcom/github-releases-notifier))
+- [Slack](https://www.slack.com) for chat communication; incl. hooks from other tools (e.g. GitHub) and bots (e.g. [GitHub Release Notifier](https://github.com/justwatchcom/github-releases-notifier))
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
