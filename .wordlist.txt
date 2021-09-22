@@ -1,8 +1,8 @@
 Berops
 DevOps
+else's
 GitHub
 GSuite
-io
 kanban
 Kanban
 Nuclino
