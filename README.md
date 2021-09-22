@@ -108,7 +108,7 @@ If the person is located within an EU country, the company procures the working 
 
 We offer a EUR 500.- budget for a working desk and EUR 500.- budget for a chair.
 
-This is an opt-out program.
+This program is optional and people who prefeir to use their own hardware or other equipment are most welcome to do so.
 
 ### What happens to the equipment if I leave the company?
 
