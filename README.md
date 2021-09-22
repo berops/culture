@@ -96,6 +96,8 @@ If the person is located within an EU country, the company procures the working 
 
 We offer a EUR 500.- budget for a working desk and EUR 500.- budget for a chair.
 
+This is an opt-out program.
+
 ### What happens to the equipment if I leave the company?
 
 At Berops here we have a policy for handling the equipment in case of resignations.
