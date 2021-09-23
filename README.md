@@ -6,6 +6,9 @@
 - [Communication](#communication)
 - [Remote Kanban DevOps house](#remotekanban)
 - [Interviews](#interviews)
+- [Equipment](#equipment)
+
+---
 
 <a name="tools"/>
 
@@ -18,6 +21,8 @@ We use:
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
 - [Nuclino](https://www.nuclino.com) as a team WIKI
 - [Miro](https://www.miro.com) for diagrams and charts
+
+---
 
 <a name="git">
 
@@ -32,6 +37,8 @@ All our work is stored on GitHub in private and public repositories. There are c
 - anybody can review and merge anybody else's PR (except of his/her own one)
 - we care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 
+---
+
 <a name="communication">
 
 ## Communication
@@ -40,6 +47,8 @@ Our communication "defaults to open". This means that by default every informati
 1. empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
 2. quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
+
+---
 
 <a name="remotekanban">
 
@@ -70,12 +79,53 @@ Berops is a full-remote, Kanban-style DevOps workplace. This section contains an
   - Try to submit regular updates to the tasks you're actively working on, generally at least one update per workday.
   - If you think some task doesn't make sense doing anymore, or isn't as important anymore, let it be known.
 
+---
+
 <a name="interviews">
 
 ## Interviews
 
 Interviews are difficult for both - the interviewer and the interviewee. There is a good reason why they are difficult. It is because they are important. We prefer to have three Berops people present on the interviews in order to capture the impressions about the candidate. This way we are able to spot aspects of the candidate's profile that a single person might miss due to the extra load that the interviewer needs to handle.
 Anybody is welcome to join any interview until all three seats are taken. All interviews are announced in the `#hiring` channel.
+
+---
+
+<a name="equipment">
+
+## Equipment
+
+Berops provides working equipment for the employees. This typically covers a working station, a table and a chair.
+
+The working station is typically:
+- laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 16/32 GB of memory
+- external dual-screen setup (typically 21-25")
+- docking station and peripherals
+- headset (we have good experience with Jabra 40 Evolve and Anker SoundCore Space)
+- backpack (we default to Thule)
+
+The above listed are our defaults. Here we are flexible and if you have different and reasonable preferences, we'll accept them (e.g. different specs, brands, ...).
+If the person is located within an EU country, the company procures the working station hardware and delivers it to the person's address. Otherwise the provisioning will be done individually by the colleagues based on the specifics of the country where they are located.
+
+We offer a EUR 500.- budget for a working desk and EUR 500.- budget for a chair.
+
+This program is optional and people who prefer to use their own hardware or other equipment are most welcome to do so.
+
+### What happens to the equipment if I leave the company?
+
+At Berops here we have a policy for handling the equipment in case of resignations.
+- If you work from EU, you send the working station to our office address, the delivery expenses are on the company's bill.
+- If you work from non-EU country, you will keep the working station, and you'll need to compensate the remaining value of the equipment.
+- In the cases of chairs and tables (no matter where you're located), you'll need to compensate the remaining value of the equipment.
+
+#### The remaining value of the equipment
+
+The following scheme applies:
+- if you resign effectively on day 1-182, you can keep the item for 60% of the purchasing price
+- if you resign effectively on day 183-365, you can keep the item for 45% of the purchasing price
+- if you resign effectively on day 366-547, you can keep the item for 30% of the purchasing price
+- if you resign effectively on day 548-730, you can keep the item for 15% of the purchasing price
+
+If you resign after 2 years of ownership of the specific item, you can just keep it.
 
 
 Our culture and this content are subject to further development.
