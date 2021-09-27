@@ -36,6 +36,7 @@ All our work is stored on GitHub in private and public repositories. There are c
 - PRs get merged after a review; review needs to be done by s/b else than the person who logged the PR
 - anybody can review and merge anybody else's PR (except of his/her own one)
 - we care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
+- we require rebase, fast-forward merge policy (`rebase + merge --ff-only`) on open-sourced repositories
 
 ---
 
