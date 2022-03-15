@@ -24,7 +24,9 @@ We use:
 
 ### 2-Factor Authentication
 
-We enforce 2FA where possible. If a tool doesn't support 2FA, we don't feel comfortable using it. Please make sure you enable 2FA on all the accounts.
+We enforce 2FA where possible. If a tool doesn't support 2FA, we don't feel comfortable using it. \
+**Please make sure you enable 2FA on all the accounts.**
+
 ---
 
 <a name="git">
