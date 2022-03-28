@@ -38,6 +38,7 @@ All our work is stored on GitHub in private and public repositories. There are c
 - anybody can review and merge anybody else's PR (except of his/her own one)
 - we care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 - we require rebase, fast-forward merge policy (`rebase + merge --ff-only`) on open-sourced repositories
+- we require [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) policy on private repositories
 
 <a name="communication">
 
