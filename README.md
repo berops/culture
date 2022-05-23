@@ -91,7 +91,7 @@ Anybody is welcome to join any interview until all three seats are taken. All in
 Berops provides working equipment for the employees. This typically covers a working station, a table and a chair.
 
 The working station is typically:
-- laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 16/32 GB of memory
+- laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 32 GB of memory
 - external dual-screen setup (typically 21-25")
 - docking station and peripherals
 - headset (we have good experience with Jabra 40 Evolve and Anker SoundCore Space)
