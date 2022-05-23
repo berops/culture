@@ -82,7 +82,28 @@ Berops is a full-remote, Kanban-style DevOps workplace. This section contains an
 ## Interviews
 
 Interviews are difficult for both - the interviewer and the interviewee. There is a good reason why they are difficult. It is because they are important. We prefer to have three Berops people present on the interviews in order to capture the impressions about the candidate. This way we are able to spot aspects of the candidate's profile that a single person might miss due to the extra load that the interviewer needs to handle.
-Anybody is welcome to join any interview until all three seats are taken. All interviews are announced in the `#hiring` channel.
+Anybody is welcome to join any interview until all three seats are taken. All interviews are announced in the Slack `#hiring` channel.
+
+The interview process at Berops is relatively standard, without any unusual hassle to worry about. From our side, we are interested in the following aspects of the candidate:
+- understanding of what our particular line of work is generally all about (DevOps, Kubernetes, consulting)
+- understanding that it might be necessary to learn a lot in the first several months on the job
+- drive and motivation to do what we do
+- approximate technical skill level, particularly in ways relevant to our work
+- past professional experiences and their relevance
+- culture fit within the team
+- identifying the candidate’s expectations and requirements
+
+The goal of each candidate’s interview process is to try to find ways to make both parties professionally happy. We communicate openly and encourage the candidate to do the same. Structure of the typical interview is simple.
+
+Introduce yourself to us, preferably by sending us an email that contains your CV
+1. We might get in touch with you (call or email) for a basic clarification that would help us with screening the CV
+2. Judging by the CV, if you seem to be a good fit, we will schedule a call with you
+3. The meeting is done online via a video call. The meeting is loosely structured as follows:
+    - Introduction of Berops
+    - Job description, discussion about technical background required for the job and deeper candidate assessment; together with a short quiz designed to sample the candidate’s general knowledge of mostly job-related topics
+    - Candidate’s expectations
+    - Open discussion
+The candidate receives feedback usually within a week of the meeting. In most cases, this concludes the interview process.
 
 <a name="equipment">
 
