@@ -37,7 +37,7 @@ All our work is stored on GitHub in private and public repositories. There are c
 - PRs get merged after a review; review needs to be done by s/b else than the person who logged the PR
 - Anybody can review and merge anybody else's PR (except of his/her own one)
 - We care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
-- We require rebase, fast-forward merge policy (`rebase + merge --ff-only`) on open-sourced repositories
+- PRs should be merged via the [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) button
 
 <a name="communication">
 
