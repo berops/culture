@@ -30,13 +30,13 @@ We enforce 2FA where possible. If a tool doesn't support 2FA, we don't feel comf
 ## Git
 
 All our work is stored on GitHub in private and public repositories. There are common housekeeping rules that apply to both of the repository types.
+- Anybody can open a PR
 - `main` and `master` branches are considered protected and the only commits in these branches should be via the Pull Requests
-- all the work is done in `feature/` branches
-- if a person wants to get his `feature/` branch merged into the `main` branch, he/she opens a PR and may or may not assign it to a person
-- anybody can open any PR
+- All the work is done in `feature/` branches
+- If a person wants to get his `feature/` branch merged into the `main` branch, he/she opens a PR and may or may not assign it to a person
 - PRs get merged after a review; review needs to be done by s/b else than the person who logged the PR
-- anybody can review and merge anybody else's PR (except of his/her own one)
-- we care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
+- Anybody can review and merge anybody else's PR (except of his/her own one)
+- We care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 - PRs should be merged via the [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) button
 
 <a name="communication">
@@ -44,8 +44,8 @@ All our work is stored on GitHub in private and public repositories. There are c
 ## Communication
 
 Our communication "defaults to open". This means that by default every information is open to the colleagues (strategic exceptions are expected and will be carefully assessed). The reasons:
-1. empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
-2. quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
+1. Empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
+2. Quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
 
 <a name="remotekanban">
@@ -82,7 +82,28 @@ Berops is a full-remote, Kanban-style DevOps workplace. This section contains an
 ## Interviews
 
 Interviews are difficult for both - the interviewer and the interviewee. There is a good reason why they are difficult. It is because they are important. We prefer to have three Berops people present on the interviews in order to capture the impressions about the candidate. This way we are able to spot aspects of the candidate's profile that a single person might miss due to the extra load that the interviewer needs to handle.
-Anybody is welcome to join any interview until all three seats are taken. All interviews are announced in the `#hiring` channel.
+Anybody is welcome to join any interview until all three seats are taken. All interviews are announced in the Slack `#hiring` channel.
+
+The interview process at Berops is relatively standard, without any unusual hassle to worry about. From our side, we are interested in the following aspects of the candidate:
+- understanding of what our particular line of work is generally all about (DevOps, Kubernetes, consulting)
+- understanding that it might be necessary to learn a lot in the first several months on the job
+- drive and motivation to do what we do
+- approximate technical skill level, particularly in ways relevant to our work
+- past professional experiences and their relevance
+- culture fit within the team
+- identifying the candidate’s expectations and requirements
+
+The goal of each candidate’s interview process is to try to find ways to make both parties professionally happy. We communicate openly and encourage the candidate to do the same. Structure of the typical interview is simple.
+
+Introduce yourself to us, preferably by sending us an email that contains your CV
+1. We might get in touch with you (call or email) for a basic clarification that would help us with screening the CV
+2. Judging by the CV, if you seem to be a good fit, we will schedule a call with you
+3. The meeting is done online via a video call. The meeting is loosely structured as follows:
+    - Introduction of Berops
+    - Job description, discussion about technical background required for the job and deeper candidate assessment; together with a short quiz designed to sample the candidate’s general knowledge of mostly job-related topics
+    - Candidate’s expectations
+    - Open discussion
+The candidate receives feedback usually within a week of the meeting. In most cases, this concludes the interview process.
 
 <a name="equipment">
 
@@ -91,11 +112,11 @@ Anybody is welcome to join any interview until all three seats are taken. All in
 Berops provides working equipment for the employees. This typically covers a working station, a table and a chair.
 
 The working station is typically:
-- laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 16/32 GB of memory
-- external dual-screen setup (typically 21-25")
-- docking station and peripherals
-- headset (we have good experience with Jabra 40 Evolve and Anker SoundCore Space)
-- backpack (we default to Thule)
+- Laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 32 GB of memory
+- External dual-screen setup (typically 21-25")
+- Docking station and peripherals
+- Headset (we have good experience with Jabra 40 Evolve and Anker SoundCore Space)
+- Backpack (we default to Thule)
 
 The above listed are our defaults. Here we are flexible and if you have different and reasonable preferences, we'll accept them (e.g. different specs, brands, ...).
 If the person is located within an EU country, the company procures the working station hardware and delivers it to the person's address. Otherwise the provisioning will be done individually by the colleagues based on the specifics of the country where they are located.
@@ -114,10 +135,10 @@ At Berops here we have a policy for handling the equipment in case of resignatio
 #### The remaining value of the equipment
 
 The following scheme applies:
-- if you resign effectively on day 1-182, you can keep the item for 60% of the purchasing price
-- if you resign effectively on day 183-365, you can keep the item for 45% of the purchasing price
-- if you resign effectively on day 366-547, you can keep the item for 30% of the purchasing price
-- if you resign effectively on day 548-730, you can keep the item for 15% of the purchasing price
+- If you resign effectively on day 1-182, you can keep the item for 60% of the purchasing price
+- If you resign effectively on day 183-365, you can keep the item for 45% of the purchasing price
+- If you resign effectively on day 366-547, you can keep the item for 30% of the purchasing price
+- If you resign effectively on day 548-730, you can keep the item for 15% of the purchasing price
 
 If you resign after 2 years of ownership of the specific item, you can just keep it.
 
