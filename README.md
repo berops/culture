@@ -4,6 +4,7 @@
 - [Tools](#tools)
 - [Git](#git)
 - [Communication](#communication)
+- [Your Friday](#yourfriday)
 - [Remote Kanban DevOps house](#remotekanban)
 - [Interviews](#interviews)
 - [Equipment](#equipment)
@@ -47,6 +48,23 @@ Our communication "defaults to open". This means that by default every informati
 1. Empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
 2. Quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
+
+<a name="yourfriday">
+
+## Your Friday
+
+We believe that it's the field engineers, who deliver the work for our clients, who have the best sense of the market needs. In order to utilize this potential, we encourage our colleagues to use 20% of their working hours to work on things they choose. There's just one requirement: these topics need to be aligned with the company's mission. The activities which are typically done within _Your Friday_ program are:
+- Learning about new tech
+- Running experiments
+- Building prototypes
+- Training and certifications (fully reimbursed)
+- Writing blogs, running webinars and working with the community
+- Contributing to open-source projects
+
+The cost of this program is high, so you might wonder why are we doing this. These are the key reasons:
+1. Innovation potential
+2. Having fun
+3. Boosting our skill set
 
 <a name="remotekanban">
 
