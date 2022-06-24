@@ -64,7 +64,7 @@ We believe that it's the field engineers, who deliver the work for our clients, 
 The cost of this program is high, so you might wonder why are we doing this. These are the key reasons:
 1. Innovation potential
 2. Having fun
-3. Boosting our skillset
+3. Boosting our skill-set
 
 <a name="remotekanban">
 
