@@ -57,7 +57,7 @@ We believe that it's the field engineers, who deliver the work for our clients, 
 - Learning about new tech
 - Running experiments
 - Building prototypes
-- Trainings and certifications (fully reimbursed)
+- Training and certifications (fully reimbursed)
 - Writing blogs, running webinars and working with the community
 - Contributing to open-source projects
 
