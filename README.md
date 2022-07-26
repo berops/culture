@@ -1,13 +1,18 @@
 # Berops Culture
 
 ## Table of Contents
-- [Tools](#tools)
-- [Git](#git)
-- [Communication](#communication)
-- [Your Friday](#yourfriday)
-- [Remote Kanban DevOps house](#remotekanban)
-- [Interviews](#interviews)
-- [Equipment](#equipment)
+- [Berops Culture](#berops-culture)
+  - [Table of Contents](#table-of-contents)
+  - [Tools](#tools)
+    - [2-Factor Authentication](#2-factor-authentication)
+  - [Git](#git)
+  - [Communication](#communication)
+  - [Your Friday](#your-friday)
+  - [Remote Kanban DevOps house](#remote-kanban-devops-house)
+  - [Interviews](#interviews)
+  - [Equipment](#equipment)
+    - [What happens to the equipment if I leave the company?](#what-happens-to-the-equipment-if-i-leave-the-company)
+      - [The remaining value of the equipment](#the-remaining-value-of-the-equipment)
 
 <a name="tools"/>
 
@@ -18,8 +23,6 @@ We use:
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
-- [Nuclino](https://www.nuclino.com) as a team WIKI
-- [Miro](https://www.miro.com) for diagrams and charts
 
 ### 2-Factor Authentication
 
