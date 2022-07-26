@@ -1,18 +1,13 @@
 # Berops Culture
 
 ## Table of Contents
-- [Berops Culture](#berops-culture)
-  - [Table of Contents](#table-of-contents)
-  - [Tools](#tools)
-    - [2-Factor Authentication](#2-factor-authentication)
-  - [Git](#git)
-  - [Communication](#communication)
-  - [Your Friday](#your-friday)
-  - [Remote Kanban DevOps house](#remote-kanban-devops-house)
-  - [Interviews](#interviews)
-  - [Equipment](#equipment)
-    - [What happens to the equipment if I leave the company?](#what-happens-to-the-equipment-if-i-leave-the-company)
-      - [The remaining value of the equipment](#the-remaining-value-of-the-equipment)
+- [Tools](#tools)
+- [Git](#git)
+- [Communication](#communication)
+- [Your Friday](#yourfriday)
+- [Remote Kanban DevOps house](#remotekanban)
+- [Interviews](#interviews)
+- [Equipment](#equipment)
 
 <a name="tools"/>
 
