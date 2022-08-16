@@ -119,6 +119,7 @@ Introduce yourself to us, preferably by sending us an email that contains your C
     - Job description, discussion about technical background required for the job and deeper candidate assessment; together with a short quiz designed to sample the candidate’s general knowledge of mostly job-related topics
     - Candidate’s expectations
     - Open discussion
+
 The candidate receives feedback usually within a week of the meeting. In most cases, this concludes the interview process.
 
 <a name="equipment">
