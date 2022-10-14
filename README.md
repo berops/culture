@@ -32,8 +32,8 @@ All our work is stored on GitHub in private and public repositories. There are c
 - Anybody can open a PR
 - `main` and `master` branches are considered protected and the only commits in these branches should be via the Pull Requests
 - All the work is done in `feature/` branches
-- If a person wants to get his `feature/` branch merged into the `main` branch, he/she opens a PR and may or may not assign it to a person
-- PRs get merged after a review; review needs to be done by s/b else than the person who logged the PR
+- If a person wants to get his/her `feature/` branch merged into the `main` branch, he/she opens a PR and may or may not assign it to a person
+- PRs get merged after a review; review needs to be done by someone else than the person who logged the PR
 - Anybody can review and merge anybody else's PR (except of his/her own one)
 - We care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 - PRs should be merged via the [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) button
@@ -129,10 +129,10 @@ The candidate receives feedback usually within a week of the meeting. In most ca
 Berops provides working equipment for the employees. This typically covers a working station, a table and a chair.
 
 The working station is typically:
-- Laptop from T14/T15 Lenovo series (6/8 core with distribution of your choice) or MacBook Air/Pro with 32 GB of memory
-- External dual-screen setup (typically 21-25")
+- Laptop from T14/T15 Lenovo series or MacBook Air/Pro with sufficient memory
+- External dual-screen setup
 - Docking station and peripherals
-- Headset (we have good experience with Jabra 40 Evolve and Anker SoundCore Space)
+- Headset (we have good experience with Koss, Jabra, Anker and Sony over-the-ear comfy headphones)
 - Backpack (we default to Thule)
 
 The above listed are our defaults. Here we are flexible and if you have different and reasonable preferences, we'll accept them (e.g. different specs, brands, ...).
