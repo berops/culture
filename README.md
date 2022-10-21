@@ -50,8 +50,8 @@ All our work is stored on GitHub in private and public repositories. There are c
 
 Our major product, [Claudie](https://github.com/Berops/claudie), is developed in [Go](https://go.dev/).
 We like the following guidelines:
-- https://github.com/uber-go/guide
-- https://dave.cheney.net/practical-go/presentations/gophercon-israel.html
+- [Uber Go](https://github.com/uber-go/guide)
+- [Dave Cheney - Practical Go](https://dave.cheney.net/practical-go/presentations/gophercon-israel.html)
 
 <a name="communication">
 
