@@ -2,7 +2,9 @@
 
 ## Table of Contents
 - [Tools](#tools)
+- [2FA](#2fa)
 - [Git](#git)
+- [Development in Go](#golang)
 - [Communication](#communication)
 - [Your Friday](#yourfriday)
 - [Remote Kanban DevOps house](#remotekanban)
@@ -18,6 +20,9 @@ We use:
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
+
+
+<a name="2fa"/>
 
 ### 2-Factor Authentication
 
@@ -37,6 +42,16 @@ All our work is stored on GitHub in private and public repositories. There are c
 - Anybody can review and merge anybody else's PR (except of his/her own one)
 - We care about the commit and PR [hygiene](https://chris.beams.io/posts/git-commit/)
 - PRs should be merged via the [squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) button
+
+
+<a name="golang">
+
+## Development in Go
+
+Our major product, [Claudie](https://github.com/Berops/claudie), is developed in [Go](https://go.dev/).
+We like the following guidelines:
+- [Uber Go](https://github.com/uber-go/guide)
+- [Dave Cheney - Practical Go](https://dave.cheney.net/practical-go/presentations/gophercon-israel.html)
 
 <a name="communication">
 

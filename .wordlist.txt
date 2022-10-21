@@ -1,5 +1,6 @@
 Anker
 Berops
+Claudie
 DevOps
 else's
 GitHub
@@ -7,6 +8,7 @@ GSuite
 Jabra
 kanban
 Kanban
+Koss
 Kubernetes
 Lenovo
 MacBook
@@ -14,3 +16,4 @@ Nuclino
 PRs
 rebase
 SoundCore
+Uber
