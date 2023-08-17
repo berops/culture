@@ -24,7 +24,7 @@ We use:
 
 ### How we use Kimai
 
-We employ the [Kimai](https://www.kimai.cloud/) time tracking tool to document work hours. Unlike certain real-time tracking tools that monitor time and capture your screen as you work, we only record the time once a task is completed with Kimai. This respects employees privacy, and we can use the time data for payroll and customers invoices, which helps us to be clear about the work that's been done.
+We employ the [Kimai](https://www.kimai.cloud/) time tracking tool to document work hours. Unlike certain real-time tracking tools that monitor time and capture your screen as you work, in Kimai we only record the time once a task is completed. This respects employees privacy, and we can use the time data for payroll and customers invoices, which helps us to be clear about the work that's been done.
 
 <a name="2fa"/>
 
