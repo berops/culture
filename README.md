@@ -20,7 +20,7 @@ We use:
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
-- [Kimai](https://www.kimai.cloud/) for recording worked hours. It isn't a real-time tracking tool, but rather it is used to log hours upon task completion, ensuring privacy. For more details see [How we use Kimai](https://github.com/berops/culture/#how-we-use-kimai)
+- [Kimai](https://www.kimai.cloud/) for recording worked hours. It isn't a real-time tracking tool, but rather it is used to log hours upon task completion, ensuring privacy. For more details see [How we use Kimai](#how-we-use-kimai)
 
 ### How we use Kimai
 
