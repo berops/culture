@@ -20,8 +20,11 @@ We use:
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
-- [Kimai](https://www.kimai.cloud/) for recording worked hours. It isn't a real-time tracking tool, but rather it is used to log hours upon task completion, ensuring privacy.
+- [Kimai](https://www.kimai.cloud/) for recording worked hours. It isn't a real-time tracking tool, but rather it is used to log hours upon task completion, ensuring privacy. For more details see [How we use Kimai](https://github.com/berops/culture/#how-we-use-kimai)
 
+### How we use Kimai
+
+We employ the [Kimai](https://www.kimai.cloud/) time tracking tool to document work hours. Unlike certain real-time tracking tools that monitor time and capture your screen as you work, we only record the time once a task is completed with Kimai. This respects employees privacy, and we can use the time data for payroll and customers invoices, which helps us to be clear about the work that's been done.
 
 <a name="2fa"/>
 
