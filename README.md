@@ -6,6 +6,7 @@
 - [Git](#git)
 - [Development in Go](#golang)
 - [Communication](#communication)
+- [Timesheets](#timesheets)
 - [Your Friday](#yourfriday)
 - [Remote Kanban DevOps house](#remotekanban)
 - [Interviews](#interviews)
@@ -20,7 +21,7 @@ We use:
 - [GitHub](https://www.github.com/berops) for private and public git repositories
 - [GSuite](https://gsuite.google.com) for mailbox, cloud storage and other office tools
 - [Google Cloud Platform](https://cloud.google.com) for hosting our infrastructure
-
+- [Kimai](https://www.kimai.cloud/) for recording worked hours. Find information on usage [here](#timesheets)
 
 <a name="2fa"/>
 
@@ -61,6 +62,10 @@ Our communication "defaults to open". This means that by default every informati
 1. Empowering colleagues - we're all a part of the same business story, we're working together to achieve a success together
 2. Quality decisions - in a transparent world we're expecting that we get a constructive feedback and we're able to steer the decisions accordingly
 As Slack is our communication tool of choice, we take the advantage of `huddle`s. Anybody is welcome to join any huddle.
+
+## Timesheets
+
+We employ the [Kimai](https://www.kimai.cloud/) time tracking tool to document work hours. Unlike certain real-time tracking tools that monitor time and capture your screen as you work, we log time manually in Kimai. This respects employees privacy, and we can use the time data for payroll and customers invoices, which helps us to be clear about the work that's been done.
 
 <a name="yourfriday">
 
