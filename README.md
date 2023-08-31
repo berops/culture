@@ -76,6 +76,7 @@ We believe that it's the field engineers, who deliver the work for our clients, 
 - Running experiments
 - Building prototypes
 - Training and certifications (fully reimbursed)
+  - In particular, we encourage preparation for popular exams within our sphere of work, such as CKA, CKAD, and CKS
 - Writing blogs, running webinars and working with the community
 - Contributing to open-source projects
 
