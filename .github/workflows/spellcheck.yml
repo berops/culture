@@ -27,7 +27,7 @@ jobs:
         name: Checkout
 
       # Runs a single command using the runners shell
-      - uses: rojopolis/spellcheck-github-actions@0.26.0
+      - uses: rojopolis/spellcheck-github-actions@0.35.0
         name: Spellcheck
         with:
           source_files: README.md
